@@ -1,7 +1,5 @@
 pipeline {
     agent any
-    tools {
-    }
     stages {
         stage("build image") {
             steps {
